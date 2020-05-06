@@ -1,3 +1,30 @@
+  293  ls
+  294  git init 
+  295  echo "*.o" > .gitignore
+  296  ls
+  297  dir
+  298  ls -la
+  299  git add gauss2d.cc Makefile plot.py .gitignore
+  300  git status
+  301  git commmit -m "Working 2D Gaussian array generation code and plotting script"
+  302  git commit -m "Working 2D Gaussian array generation code and plotting script"
+  303  git log
+  304  git remote add origin ~$USER/repos/gauss2d.git
+  305  ls
+  306  cat .git/config
+  307  git push --set-upstream origin master
+  308  vi gauss2d.cc
+  309  vi plot.py
+  310  exit
+  311  ls
+  312  cd Downloads/
+  313  ls
+  314  git status
+  315  .git
+  316  git
+  317  git config --global user.name "Simon"
+  318  git config --global user.email set.smith@mail.utoronto.ca
+  319  git clone https://github.com/simon-et-smith/CTA200.git
   320  ls
   321  rm CTA200
   322  rmdir CTA200
@@ -264,3 +291,10 @@
   583  git status
   584  vi history.txt
   585  history | tail -266 > history.txt
+  586  history.txt
+  587  vi history.txt
+  588  git status
+  589  git add history.txt
+  590  git commit -m "updated history.txt"
+  591  git push -u origin master
+  592  history | tail -300 > history.txt
