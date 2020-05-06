@@ -1,0 +1,300 @@
+  293  ls
+  294  git init 
+  295  echo "*.o" > .gitignore
+  296  ls
+  297  dir
+  298  ls -la
+  299  git add gauss2d.cc Makefile plot.py .gitignore
+  300  git status
+  301  git commmit -m "Working 2D Gaussian array generation code and plotting script"
+  302  git commit -m "Working 2D Gaussian array generation code and plotting script"
+  303  git log
+  304  git remote add origin ~$USER/repos/gauss2d.git
+  305  ls
+  306  cat .git/config
+  307  git push --set-upstream origin master
+  308  vi gauss2d.cc
+  309  vi plot.py
+  310  exit
+  311  ls
+  312  cd Downloads/
+  313  ls
+  314  git status
+  315  .git
+  316  git
+  317  git config --global user.name "Simon"
+  318  git config --global user.email set.smith@mail.utoronto.ca
+  319  git clone https://github.com/simon-et-smith/CTA200.git
+  320  ls
+  321  rm CTA200
+  322  rmdir CTA200
+  323  rm -r CTA200
+  324  ls
+  325  cd ..
+  326  ls
+  327  cd ..
+  328  ls
+  329  cd ~
+  330  ls
+  331  git clone https://github.com/simon-et-smith/CTA200.git
+  332  ls
+  333  cd CTA200
+  334  ls
+  335  vi README.md
+  336  vi LICENSE
+  337  git add README.md LICENSE
+  338  git status
+  339  git commit -m "Added README.md and LICENSE files to empty repository"
+  340  git log
+  341  ls
+  342  cd ~
+  343  cd ..
+  344  ls
+  345  cd cta200
+  346  ls
+  347  cd repos
+  348  ls
+  349  cd ..
+  350  cd Documents/
+  351  ls
+  352  cd ..
+  353  ls
+  354  cd Research/
+  355  ls
+  356  cd ..
+  357  ls perl5
+  358  ls Research/
+  359  ls Downloads/
+  360  cd ..
+  361  ls
+  362  cd student16
+  363  ls
+  364  mkdir cta200
+  365  ls
+  366  cd cta200
+  367  ls
+  368  git init --bare
+  369  git remote add origin https://github.com/simon-et-smith/CTA200.git
+  370  ls
+  371  vi README.md
+  372  vi LICENSE
+  373  cd ..
+  374  ls
+  375  mkdir CTA200H
+  376  ls
+  377  rm -rf CTA200
+  378  ls
+  379  cd CTA200H
+  380  ls
+  381  git remote add origin https://CITA/CTA200H.git
+  382  git remote add origin https://github.com/CITA/CTA200H.git
+  383  cd ..
+  384  ls
+  385  cd cta200
+  386  ls
+  387  git status
+  388  git init
+  389  ls
+  390  git status
+  391  git add README.md LICENSE
+  392  git status
+  393  git commit -m "Added LICENSE and README.md files"
+  394  ls
+  395  cd ..
+  396  ls
+  397  cd CTA200H
+  398  ls
+  399  git init
+  400  git clone https://github.com/CITA/CTA200H.git
+  401  ls
+  402  cd CTA200H
+  403  ls
+  404  cd assignment1_2020/
+  405  ls
+  406  pwd
+  407  /home/student16/CTA200H/CTA200H/assignment1_2020
+  408  cp /home/student16/CTA200H/CTA200H/assignment1_2020/average.c /home/student16/cta200
+  409  lc ~/cta200
+  410  ls ~cta200
+  411  ls ~/cta200
+  412  cp /home/student16/CTA200H/CTA200H/assignment1_2020/average.h /home/student16/cta200
+  413  cp /home/student16/CTA200H/CTA200H/assignment1_2020/main.c /home/student16/cta200
+  414  ls
+  415  cd ..
+  416  ls
+  417  cd ~
+  418  ls
+  419  cd cta200
+  420  ls
+  421  cd
+  422  ls
+  423  cd repos
+  424  ls
+  425  cd gauss2d.git
+  426  ls
+  427  cd /mnt/scratch-lustre/student16
+  428  ls
+  429  cd gauss2d
+  430  ls
+  431  cd gauss2d
+  432  ls
+  433  vi Makefile
+  434  ls
+  435  cd ~/cta200
+  436  ls
+  437  vi average.c
+  438  vi average.h
+  439  ls
+  440  vi main.c
+  441  cd ~/CTA200H
+  442  ls
+  443  cd CTA200H
+  444  ls
+  445  cd assignment1_2020/
+  446  ls
+  447  vi average.c
+  448  vi average.h
+  449  cp /home/student16/CTA200H/CTA200H/assignment1_2020/average.c /home/student16/cta200
+  450  cp /home/student16/CTA200H/CTA200H/assignment1_2020/average.h /home/student16/cta200
+  451  ls
+  452  cd ~/cta200
+  453  ls
+  454  vi average.c
+  455  vi average.h
+  456  ls
+  457  gcc main.c
+  458  ls
+  459  vi Makefile
+  460  ls
+  461  pwd
+  462  make
+  463  vi Makefile
+  464  make
+  465  vi Makefile
+  466  make
+  467  ./assign1
+  468  ls
+  469  git add Makefile average.c average.h main.c
+  470  git status
+  471  git commit
+  472  git commit -m "Added Makefile, .c, .h files"
+  473  git push
+  474  git remote add origin https://github.com/simon-et-smith/CTA200.git
+  475  cat .git/config
+  476  git push
+  477  ls
+  478  cd ~/cta200
+  479  ls
+  480  vi Makefile
+  481  ls
+  482  module list
+  483  ./main.c
+  484  gcc main.c
+  485  gcc main.c > average.c
+  486  gcc main.c > average.h
+  487  ls
+  488  make
+  489  ./assign1
+  490  git status
+  491  git push
+  492  git push -u origin master
+  493  ls
+  494  git
+  495  git status
+  496  cd
+  497  ls
+  498  cd cta200
+  499  ls
+  500  git init https://github.com/simon-et-smith/CTA200.git
+  501  ls
+  502  rm https\:/
+  503  rm -rf https\:/
+  504  ls
+  505  git remote add origin https:/github.com/simon-et-smith/CTA200.git
+  506  cat .git/config
+  507  git push --set-upstream origin master
+  508  ls
+  509  vi main.c
+  510  history > history.txt
+  511  ls
+  512  git status
+  513  git add history.txt
+  514  git commit history.txt
+  515  git commit history.txt -m "Added history.txt"
+  516  git push 
+  517  ls
+  518  cd cta200
+  519  ls
+  520  vi main.c
+  521  make
+  522  vi main.c
+  523  make
+  524  vi main.c
+  525  make
+  526  ./assign1
+  527  vi main.c
+  528  make
+  529  ./assign1
+  530  git status
+  531  git add main.c
+  532  git status
+  533  git commit -m "Demonstrated the average of the negative array, and added an oxford comma"
+  534  ls
+  535  git remote set-url origin "https://simon-et-smith@github.com/simon-et-smith/CTA200.git"
+  536  git push
+  537  git push -u origin master
+  538  exit
+  539  vncserver
+  540  ls
+  541  module list
+  542  cd cta200
+  543  ls
+  544  vi average.c
+  545  exit
+  546  ls
+  547  ls
+  548  module list
+  549  vncserver
+  550  exit
+  551  ls
+  552  cd cta200
+  553  ls
+  554  cd ~/repos
+  555  ls
+  556  cd gauss2d.git
+  557  ls
+  558  cd ~\cta200
+  559  ~/cta200
+  560  cd ~/cta200
+  561  ls
+  562  vi main.o
+  563  vi Makefile
+  564  make
+  565  ls
+  566  ./assign
+  567  ./assign1
+  568  rm main.o average.o
+  569  ls
+  570  make
+  571  ls
+  572  ./assign1
+  573  make clean
+  574  ls
+  575  git status
+  576  history > history.txt
+  577  vi history.txt
+  578  git status
+  579  git add Makefile history.txt
+  580  git status
+  581  git commit -m "added clean functionality to Makefile and updated history.txt"
+  582  git push -u origin master
+  583  git status
+  584  vi history.txt
+  585  history | tail -266 > history.txt
+  586  history.txt
+  587  vi history.txt
+  588  git status
+  589  git add history.txt
+  590  git commit -m "updated history.txt"
+  591  git push -u origin master
+  592  history | tail -300 > history.txt
