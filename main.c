@@ -7,7 +7,8 @@ int main() {
 
     double result = average(4, arr);
 
-    printf("The average of 1, 2, 3 and 4 is: %.4f\n", result);
+    printf("The average of 1, 2, 3, and 4 is: %.4f\n", result);
+    printf("Conversly, the average of -1, -2, -3, and -4 is: -%.4f\n", result);
     return 0;    
 }
 
